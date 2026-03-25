@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rendergit"
+version = "0.1.0"
+description = "Render any GitHub repo into a single HTML page for fast skimming and LLM use"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "markdown>=3.10.2",
+    "pygments>=2.19.2",
+    "rich>=14.3.3",
+]
+
+[project.scripts]
+rendergit = "rendergit.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rendergit"]
+
+[tool.uv]
+dev-dependencies = []
+
