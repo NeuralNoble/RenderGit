@@ -3,7 +3,7 @@
 Render any GitHub repo into a single HTML page — paste the entire codebase into any LLM chat with one click. Also works as a beautiful, searchable code viewer with syntax highlighting, rendered Markdown, inline images, and Jupyter notebook support.
 
 
-![RenderGit CLI](/Users/amananand/Projects/renderer/Screenshot 2026-03-25 at 3.19.55 PM.png)
+![RenderGit CLI](cli.png)
 
 ## Install
 
